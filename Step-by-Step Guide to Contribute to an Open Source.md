@@ -136,3 +136,4 @@ This workflow helps you contribute safely and efficiently to open source project
 [^9]: https://learn.microsoft.com/en-us/training/modules/contribute-open-source/
 
 [^10]: https://github.com/freeCodeCamp/how-to-contribute-to-open-source
+
