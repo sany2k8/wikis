@@ -12,5 +12,6 @@ A collection of small wikis related to software engineering topics.
 - [Step-by-Step Guide to Set Up and Use Git](Step-by-Step%20Guide%20to%20Set%20Up%20and%20Use%20Git.md)
 - [Step-by-Step Guide to Set Up and Use GitHub actions](Step-by-Step%20Guide%20to%20Set%20Up%20and%20Use%20GitHub%20action.md)
 - [Step-by-Step Guide to Set Up and Use GitHub Pages](Step-by-Step%20Guide%20to%20Set%20Up%20and%20Use%20GitHub%20Pages.md)
+- [Step-by-Step Guide to Set Up and Use UV Package Manager](Step-by-Step%20Guide%20to%20Set%20Up%20and%20Use%20UV%20Package%20Manager.md)
 
 ### More Wikis are coming soon!
