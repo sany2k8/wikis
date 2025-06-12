@@ -140,7 +140,7 @@ docker stats
 
 This workflow covers container creation, runtime management, and optimization strategies using core Docker CLI commands.
 
-<div style="text-align: center">⁂</div>
+<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
 
 [^1]: https://docs.docker.com/get-started/workshop/02_our_app/
 

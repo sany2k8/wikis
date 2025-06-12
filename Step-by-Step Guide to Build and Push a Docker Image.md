@@ -129,7 +129,7 @@ docker push myregistry.example.com/my-nginx-image:latest
 
 This process works for Docker Hub and any Docker-compliant registry, including private registries[^3][^4][^8].
 
-<div style="text-align: center">⁂</div>
+<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
 
 [^1]: https://docs.gitlab.com/user/packages/container_registry/build_and_push_images/
 

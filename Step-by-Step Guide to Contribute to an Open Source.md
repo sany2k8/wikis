@@ -113,7 +113,7 @@ git push origin main
 
 This workflow helps you contribute safely and efficiently to open source projects on GitHub, from forking to submitting your first pull request.
 
-<div style="text-align: center">⁂</div>
+<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
 
 [^1]: https://daily.dev/blog/how-to-contribute-to-open-source-github-repositories
 

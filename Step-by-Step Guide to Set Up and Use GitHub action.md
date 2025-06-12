@@ -100,7 +100,7 @@ jobs:
 
 This guide helps you get started with GitHub Actions by creating your first automated workflow triggered on code pushes, enabling automation of builds, tests, and deployments directly within your GitHub repository[^1][^2][^3][^4].
 
-<div style="text-align: center">⁂</div>
+<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
 
 [^1]: https://docs.github.com/en/actions/writing-workflows/quickstart
 
