@@ -95,7 +95,7 @@ aws ec2 describe-instances  # Describe EC2 instances
 
 This setup allows you to securely manage AWS resources directly from your terminal using the AWS CLI.
 
-*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
+**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
 
 [^1]: https://accendnetworks.com/2024/11/10/how-to-configure-aws-cli-step-by-step-guide-for-beginners/
 

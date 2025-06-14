@@ -94,7 +94,7 @@ else:
 
 Using Redis caching can reduce page load times from tens of milliseconds to under a millisecond for cached content, significantly improving web application performance and scalability[^1][^2][^3][^5].
 
-*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
+**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
 
 [^1]: https://redis.io/ebook/part-1-getting-started/chapter-2-anatomy-of-a-redis-web-application/2-3-web-page-caching/
 

@@ -150,7 +150,7 @@ or visit the official documentation.
 
 UV is now set up and ready to use as your fast, modern Python package and project manager![^1][^2][^3][^4][^5][^6][^7]
 
-*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
+**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
 
 [^1]: https://docs.astral.sh/uv/getting-started/installation/
 

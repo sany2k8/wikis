@@ -150,7 +150,7 @@ docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
 
 Using Docker Compose simplifies managing multi-container apps by defining all services, networks, and volumes in one YAML file, replacing complex `docker run` commands with easy orchestration.
 
-*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
+**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
 
 [^1]: https://docs.docker.com/get-started/docker-concepts/running-containers/multi-container-applications/
 

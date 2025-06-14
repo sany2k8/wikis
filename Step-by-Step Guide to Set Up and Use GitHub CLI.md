@@ -234,7 +234,7 @@ GitHub CLI empowers you to perform almost all GitHub operations from your termin
 
 For more examples, see the official GitHub CLI examples page: https://cli.github.com/manual/examples[^1].
 
-*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
+**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
 
 [^1]: https://cli.github.com/manual/examples
 

@@ -130,7 +130,7 @@ docker secret rm my_secret
 
 Docker Secrets provide a secure, encrypted, and runtime-only way to manage sensitive data in containerized applications running on Docker Swarm, preventing exposure in images, environment variables, or source code.
 
-*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
+**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
 
 [^1]: https://docs.docker.com/engine/swarm/secrets/
 
