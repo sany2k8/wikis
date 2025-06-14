@@ -165,7 +165,7 @@ git pull
 
 This setup allows you to easily install and switch between multiple Python versions on your system using Pyenv.
 
-<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
+*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
 
 [^1]: https://github.com/pyenv/pyenv
 

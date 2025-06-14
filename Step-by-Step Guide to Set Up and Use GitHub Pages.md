@@ -110,7 +110,7 @@ https://username.github.io/repository-name/
 
 This guide helps you quickly launch a free static website hosted on GitHub Pages with automatic deployment on every push. It’s ideal for personal sites, portfolios, documentation, and project pages.
 
-<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
+*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
 
 [^1]: https://builtin.com/software-engineering-perspectives/github-pages
 

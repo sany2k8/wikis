@@ -155,7 +155,7 @@ GitFlow provides a clear, structured workflow ideal for projects with scheduled 
 - DataCamp GitFlow Tutorial [^2]
 - Original GitFlow Model by Vincent Driessen [^4]
 
-<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
+*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
 
 [^1]: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 

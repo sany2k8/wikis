@@ -157,7 +157,7 @@ This command merges the changes from `<branch_name>` into the `main` branch.
 
 This guide provides a basic overview of how to set up and use Git for version control. There are many more advanced features and commands available in Git, but these steps should get you started.
 
-<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
+*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
 
 [^1]: https://phoenixnap.com/kb/how-to-install-git-windows
 

@@ -131,7 +131,7 @@ This updates the hook versions in your `.pre-commit-config.yaml`[^1].
 
 Pre-commit hooks help catch issues early and enforce code quality automatically before every commit[^2][^4].
 
-<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
+*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
 
 [^1]: https://pre-commit.com
 

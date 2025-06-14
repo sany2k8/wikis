@@ -100,7 +100,7 @@ Using a virtual environment is a best practice for Python development, keeping y
 **References:**
 [^1][^2][^3][^5][^6][^7]
 
-<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
+*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
 
 [^1]: https://docs.python.org/3/library/venv.html
 

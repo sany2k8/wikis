@@ -137,7 +137,7 @@ nvm run 14.17.0 --version
 
 NVM lets you easily install, switch, and manage multiple Node.js versions on your system, enabling smooth development across projects requiring different Node environments.
 
-<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
+*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
 
 [^1]: https://codedamn.com/news/nodejs/nvm-installation-setup-guide
 

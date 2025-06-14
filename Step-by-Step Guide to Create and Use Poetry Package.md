@@ -149,7 +149,7 @@ You will need PyPI credentials configured or use an API token.
 
 This guide helps you set up Poetry as a modern Python dependency and packaging manager, simplifying project setup, dependency resolution, and publishing. For detailed documentation, visit [python-poetry.org](https://python-poetry.org/docs/)[^1][^2][^3][^4].
 
-<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
+*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
 
 [^1]: https://python-poetry.org/docs/
 

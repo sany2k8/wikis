@@ -178,7 +178,7 @@ docker run -d -p 3000:80 myapp:latest
 
 This approach reduces image sizes by **~90%** in many cases (e.g., from 1.2GB to 120MB) while improving security by excluding build tools from production.
 
-<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
+*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
 
 [^1]: https://docs.docker.com/build/building/multi-stage/
 

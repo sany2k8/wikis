@@ -26,5 +26,6 @@ A collection of small wikis related to software engineering topics.
 - [Step-by-Step Guide to Use Docker Volumes for Persistent Storage](Step-by-Step%20Guide%20to%20Use%20Docker%20Volumes%20for%20Persistent%20Storage.md)
 - [Step-by-Step Guide to Use Git Branching Strategy](Step-by-Step%20Guide%20to%20Use%20Git%20Branching%20Strategy.md)
 - [Step-by-Step Guide to Use Redis for Caching in Web](Step-by-Step%20Guide%20to%20Use%20Redis%20for%20Caching%20in%20Web.md)
+- [Step-by-Step Guide to Set Up and Use GitHub CLI](Step-by-Step%20Guide%20to%20Set%20Up%20and%20Use%20GitHub%20CLI.md)
 
 ### More Wikis are coming soon!

@@ -140,7 +140,7 @@ docker volume prune
 
 Using Docker volumes ensures your container data is safely persisted beyond container lifecycles, improving reliability and enabling easier data sharing and backup in containerized environments[^1][^2][^5][^6].
 
-<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
+*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
 
 [^1]: https://docs.docker.com/engine/storage/volumes/
 

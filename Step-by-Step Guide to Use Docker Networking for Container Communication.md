@@ -144,7 +144,7 @@ Deploy services on the overlay network to enable secure multi-host communication
 
 Docker networking abstracts complex Linux networking details, providing seamless container communication with automatic DNS-based service discovery, network isolation, and flexible multi-host capabilities.
 
-<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
+*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
 
 [^1]: https://spacelift.io/blog/docker-networking
 
