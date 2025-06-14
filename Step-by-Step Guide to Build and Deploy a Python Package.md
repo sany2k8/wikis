@@ -119,7 +119,7 @@ uv version <NEW_VERSION>  # Bump version automatically [^3]
 
 This workflow leverages UV's fast Rust-based tooling for efficient Python package distribution. The process ensures compatibility with PyPI's modern token authentication system while maintaining flexibility for testing via TestPyPI[^1][^3][^4].
 
-<div style="text-align: center">⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ Always Sany ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂</div>
+*⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂*
 
 [^1]: https://docs.astral.sh/uv/guides/package/
 
