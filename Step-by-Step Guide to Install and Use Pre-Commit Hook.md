@@ -14,7 +14,7 @@ Verify the installation:
 pre-commit --version
 ```
 
-You should see the installed version printed[^1][^2].
+You should see the installed version printed.
 
 ---
 
@@ -31,19 +31,19 @@ Or create your own, for example:
 
 ```yaml
 repos:
-  - repo: https://github.com/pre-commit/pre-commit-hooks
+  - repo- https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
       - id: check-yaml
-  - repo: https://github.com/psf/black
+  - repo- https://github.com/psf/black
     rev: 24.4.2
     hooks:
       - id: black
 ```
 
-This configuration adds some common Python formatting and linting hooks[^1][^2].
+This configuration adds some common Python formatting and linting hooks.
 
 ---
 
@@ -55,7 +55,7 @@ Run the following command at your project root:
 pre-commit install
 ```
 
-This sets up the git hook scripts in your `.git/hooks` directory. From now on, the hooks will run automatically every time you make a commit[^1][^2][^4].
+This sets up the git hook scripts in your `.git/hooks` directory. From now on, the hooks will run automatically every time you make a commit.
 
 ---
 
@@ -73,14 +73,14 @@ Or combine with install:
 pre-commit install --install-hooks
 ```
 
-This can make the first commit faster[^1][^2].
+This can make the first commit faster.
 
 ---
 
 ### 5. Using Pre-Commit Hooks
 
 - **On Every Commit:**
-Hooks will automatically run when you execute `git commit`. If a hook fails, the commit will be blocked until you fix the issues[^1][^2][^4].
+Hooks will automatically run when you execute `git commit`. If a hook fails, the commit will be blocked until you fix the issues.
 - **Manually Run All Hooks:**
 To run all hooks on all files:
 
@@ -105,14 +105,14 @@ To update your hooks to their latest versions:
 pre-commit autoupdate
 ```
 
-This updates the hook versions in your `.pre-commit-config.yaml`[^1].
+This updates the hook versions in your `.pre-commit-config.yaml`.
 
 ---
 
 ### 7. (Optional) Customize and Explore More Hooks
 
 - You can add or remove hooks by editing `.pre-commit-config.yaml`.
-- Explore more available hooks at [pre-commit.com](https://pre-commit.com)[^1][^2].
+- Explore more available hooks at [pre-commit.com](https://pre-commit.com).
 
 ---
 
@@ -129,37 +129,37 @@ This updates the hook versions in your `.pre-commit-config.yaml`[^1].
 
 ---
 
-Pre-commit hooks help catch issues early and enforce code quality automatically before every commit[^2][^4].
+Pre-commit hooks help catch issues early and enforce code quality automatically before every commit.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://pre-commit.com
+- https://pre-commit.com
 
-[^2]: https://pre-commit.com/index.html
+- https://pre-commit.com/index.html
 
-[^3]: https://lorenzwalthert.github.io/precommit/
+- https://lorenzwalthert.github.io/precommit/
 
-[^4]: https://stefaniemolin.com/articles/devx/pre-commit/setup-guide/
+- https://stefaniemolin.com/articles/devx/pre-commit/setup-guide/
 
-[^5]: https://verdantfox.com/blog/how-to-use-git-pre-commit-hooks-the-hard-way-and-the-easy-way
+- https://verdantfox.com/blog/how-to-use-git-pre-commit-hooks-the-hard-way-and-the-easy-way
 
-[^6]: https://equinor.github.io/appsec/guidelines/FAQ/pre-commit-faq/
+- https://equinor.github.io/appsec/guidelines/FAQ/pre-commit-faq/
 
-[^7]: https://github.com/pre-commit/pre-commit.github.io/issues/255
+- https://github.com/pre-commit/pre-commit.github.io/issues/255
 
-[^8]: https://dev.to/vaiolabs_io/amazing-pre-commit-and-how-to-use-it-5enb
+- https://dev.to/vaiolabs_io/amazing-pre-commit-and-how-to-use-it-5enb
 
-[^9]: https://www.youtube.com/watch?v=fNtPWNsmuew
+- https://www.youtube.com/watch?v=fNtPWNsmuew
 
-[^10]: https://www.linkedin.com/pulse/mastering-code-quality-step-by-step-guide-setting
+- https://www.linkedin.com/pulse/mastering-code-quality-step-by-step-guide-setting
 
-[^11]: https://madewithml.com/courses/mlops/pre-commit/
+[^11]- https://madewithml.com/courses/mlops/pre-commit/
 
 [^12]: http://tezos.gitlab.io/developer/pre_commit_hook.html
 
-[^13]: https://mokacoding.com/blog/pre-commit-hooks/
+[^13]- https://mokacoding.com/blog/pre-commit-hooks/
 
-[^14]: https://git-scm.com/book/ms/v2/Customizing-Git-Git-Hooks
+[^14]- https://git-scm.com/book/ms/v2/Customizing-Git-Git-Hooks
 
-[^15]: https://fig.io/manual/pre-commit/run
+[^15]- https://fig.io/manual/pre-commit/run
 

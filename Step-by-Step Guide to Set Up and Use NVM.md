@@ -137,21 +137,21 @@ nvm run 14.17.0 --version
 
 NVM lets you easily install, switch, and manage multiple Node.js versions on your system, enabling smooth development across projects requiring different Node environments.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://codedamn.com/news/nodejs/nvm-installation-setup-guide
+- https://codedamn.com/news/nodejs/nvm-installation-setup-guide
 
-[^2]: https://github.com/nvm-sh/nvm
+- https://github.com/nvm-sh/nvm
 
-[^3]: https://www.linode.com/docs/guides/how-to-install-use-node-version-manager-nvm/
+- https://www.linode.com/docs/guides/how-to-install-use-node-version-manager-nvm/
 
-[^4]: https://www.sitepoint.com/quick-tip-multiple-versions-node-nvm/
+- https://www.sitepoint.com/quick-tip-multiple-versions-node-nvm/
 
-[^5]: https://help.dreamhost.com/hc/en-us/articles/360029083351-Installing-a-custom-version-of-NVM-and-Node-js
+- https://help.dreamhost.com/hc/en-us/articles/360029083351-Installing-a-custom-version-of-NVM-and-Node-js
 
-[^6]: https://blog.tericcabrel.com/install-node-with-nvm/
+- https://blog.tericcabrel.com/install-node-with-nvm/
 
-[^7]: https://4geeks.com/how-to/install-nvm-on-every-operating-system
+- https://4geeks.com/how-to/install-nvm-on-every-operating-system
 
-[^8]: https://heynode.com/tutorial/install-nodejs-locally-nvm/
+- https://heynode.com/tutorial/install-nodejs-locally-nvm/
 

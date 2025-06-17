@@ -23,7 +23,7 @@ EXPOSE 3000
 CMD ["node", "src/index.js"]
 ```
 
-This template uses Node.js but adapt for your stack (Python, Java, etc.) [^1][^5].
+This template uses Node.js but adapt for your stack (Python, Java, etc.) .
 
 ---
 
@@ -34,7 +34,7 @@ docker build -t my-app:latest .
 ```
 
 - `-t` tags the image (e.g., `my-app:latest`)
-- `.` specifies the Dockerfile location [^1][^5][^8]
+- `.` specifies the Dockerfile location 
 
 ---
 
@@ -65,11 +65,11 @@ docker ps
 
 | State | Command | Action |
 | :-- | :-- | :-- |
-| Created | `docker create` | Initialize without starting [^6] |
-| Running | `docker start/run` | Start/restart container [^2][^7] |
-| Paused | `docker pause/unpause` | Freeze/resume processes [^3][^4] |
-| Stopped | `docker stop` | Graceful shutdown (SIGTERM) [^3][^7] |
-| Deleted | `docker rm` | Remove permanently [^7] |
+| Created | `docker create` | Initialize without starting  |
+| Running | `docker start/run` | Start/restart container  |
+| Paused | `docker pause/unpause` | Freeze/resume processes  |
+| Stopped | `docker stop` | Graceful shutdown (SIGTERM)  |
+| Deleted | `docker rm` | Remove permanently  |
 
 **Example workflow:**
 
@@ -125,40 +125,30 @@ docker stats
 | Inspect metadata | `docker inspect my-container` |
 | Execute commands in container | `docker exec -it my-container sh` |
 
-[^7][^8]
+
 
 ---
 
 ### Best Practices
 
-1. **Use small base images** (e.g., `alpine` variants) to reduce size [^3]
-2. **Implement health checks** in Dockerfile for reliability [^3]
-3. **Automate cleanup** with `docker system prune` to remove unused resources [^3]
-4. **Scan images** for vulnerabilities using `docker scan` [^3]
+1. **Use small base images** (e.g., `alpine` variants) to reduce size 
+2. **Implement health checks** in Dockerfile for reliability 
+3. **Automate cleanup** with `docker system prune` to remove unused resources 
+4. **Scan images** for vulnerabilities using `docker scan` 
 
 ---
 
 This workflow covers container creation, runtime management, and optimization strategies using core Docker CLI commands.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
-
-[^1]: https://docs.docker.com/get-started/workshop/02_our_app/
-
-[^2]: https://learn.microsoft.com/en-us/dotnet/core/docker/build-container
-
-[^3]: https://daily.dev/blog/docker-container-lifecycle-management-best-practices
-
-[^4]: https://last9.io/blog/docker-container-lifecycle/
-
-[^5]: https://www.datacamp.com/tutorial/docker-tutorial
-
-[^6]: https://docs.docker.com/reference/cli/docker/container/create/
-
-[^7]: https://www.hostinger.com/tutorials/docker-start-a-container
-
-[^8]: https://www.incredibuild.com/blog/docker-101-a-comprehensive-tutorial-for-beginners
-
-[^9]: https://dontpaniclabs.com/blog/post/2024/01/18/creating-and-running-a-docker-container-a-step-by-step-guide/
-
-[^10]: https://labex.io/tutorials/docker-how-to-create-and-manage-docker-containers-quickly-392600
+### References
+- https://docs.docker.com/get-started/workshop/02_our_app/
+- https://learn.microsoft.com/en-us/dotnet/core/docker/build-container
+- https://daily.dev/blog/docker-container-lifecycle-management-best-practices
+- https://last9.io/blog/docker-container-lifecycle/
+- https://www.datacamp.com/tutorial/docker-tutorial
+- https://docs.docker.com/reference/cli/docker/container/create/
+- https://www.hostinger.com/tutorials/docker-start-a-container
+- https://www.incredibuild.com/blog/docker-101-a-comprehensive-tutorial-for-beginners
+- https://dontpaniclabs.com/blog/post/2024/01/18/creating-and-running-a-docker-container-a-step-by-step-guide/
+- https://labex.io/tutorials/docker-how-to-create-and-manage-docker-containers-quickly-392600
 

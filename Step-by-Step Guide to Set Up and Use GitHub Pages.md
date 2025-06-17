@@ -110,21 +110,21 @@ https://username.github.io/repository-name/
 
 This guide helps you quickly launch a free static website hosted on GitHub Pages with automatic deployment on every push. It’s ideal for personal sites, portfolios, documentation, and project pages.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://builtin.com/software-engineering-perspectives/github-pages
+- https://builtin.com/software-engineering-perspectives/github-pages
 
-[^2]: https://docs.github.com/en/pages/quickstart
+- https://docs.github.com/en/pages/quickstart
 
-[^3]: https://docs.github.com/articles/creating-project-pages-manually
+- https://docs.github.com/articles/creating-project-pages-manually
 
-[^4]: https://www.youtube.com/watch?v=QyFcl_Fba-k
+- https://www.youtube.com/watch?v=QyFcl_Fba-k
 
-[^5]: https://www.youtube.com/watch?v=5XhxR9Vs6zc
+- https://www.youtube.com/watch?v=5XhxR9Vs6zc
 
-[^6]: https://dzone.com/articles/launch-your-website-for-free-a-beginners-guide-to
+- https://dzone.com/articles/launch-your-website-for-free-a-beginners-guide-to
 
-[^7]: https://docs.github.com/en/pages/getting-started-with-github-pages
+- https://docs.github.com/en/pages/getting-started-with-github-pages
 
-[^8]: https://www.linkedin.com/pulse/launch-your-website-free-beginners-guide-github-pages-omgmc
+- https://www.linkedin.com/pulse/launch-your-website-free-beginners-guide-github-pages-omgmc
 

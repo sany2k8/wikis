@@ -2,14 +2,14 @@
 
 ### 1. Understand What GitHub Actions Are
 
-GitHub Actions let you automate workflows in your GitHub repository. You define workflows in YAML files that run on specific events like pushes, pull requests, or on a schedule. Each workflow contains jobs made of steps that run scripts or reusable actions[^3][^4].
+GitHub Actions let you automate workflows in your GitHub repository. You define workflows in YAML files that run on specific events like pushes, pull requests, or on a schedule. Each workflow contains jobs made of steps that run scripts or reusable actions.
 
 ---
 
 ### 2. Create the Workflow Directory and File
 
 - In your GitHub repository, create a directory named `.github/workflows`.
-- Inside this directory, create a YAML file for your workflow, e.g., `ci.yml` or `github-actions-demo.yml`[^1][^6].
+- Inside this directory, create a YAML file for your workflow, e.g., `ci.yml` or `github-actions-demo.yml`.
 
 ---
 
@@ -40,14 +40,14 @@ jobs:
 - `name:` sets the workflow name.
 - `on:` defines the event that triggers the workflow (here, on every push).
 - `jobs:` defines one or more jobs; each job runs on a GitHub-hosted runner.
-- `steps:` are individual commands or actions run sequentially within a job[^1][^3][^4].
+- `steps:` are individual commands or actions run sequentially within a job.
 
 ---
 
 ### 4. Commit and Push the Workflow File
 
 - Commit the `.github/workflows/ci.yml` file to your repository’s default branch or a feature branch.
-- This commit triggers the workflow automatically if the event condition matches (e.g., a push event)[^1].
+- This commit triggers the workflow automatically if the event condition matches (e.g., a push event).
 
 ---
 
@@ -63,7 +63,7 @@ jobs:
 
 - Modify the `on:` section to trigger on other events like `pull_request`, `schedule`, or manually via `workflow_dispatch`.
 - Add jobs to build, test, or deploy your code.
-- Use community or custom actions from the [GitHub Actions Marketplace](https://github.com/marketplace/actions) to extend functionality[^2][^4].
+- Use community or custom actions from the [GitHub Actions Marketplace](https://github.com/marketplace/actions) to extend functionality.
 
 ---
 
@@ -98,21 +98,21 @@ jobs:
 
 ---
 
-This guide helps you get started with GitHub Actions by creating your first automated workflow triggered on code pushes, enabling automation of builds, tests, and deployments directly within your GitHub repository[^1][^2][^3][^4].
+This guide helps you get started with GitHub Actions by creating your first automated workflow triggered on code pushes, enabling automation of builds, tests, and deployments directly within your GitHub repository.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://docs.github.com/en/actions/writing-workflows/quickstart
+- https://docs.github.com/en/actions/writing-workflows/quickstart
 
-[^2]: https://www.learnenough.com/blog/git-actions-tutorial
+- https://www.learnenough.com/blog/git-actions-tutorial
 
-[^3]: https://docs.github.com/articles/getting-started-with-github-actions
+- https://docs.github.com/articles/getting-started-with-github-actions
 
-[^4]: https://graphite.dev/guides/github-actions-beginner-guide
+- https://graphite.dev/guides/github-actions-beginner-guide
 
-[^5]: https://spacelift.io/blog/github-actions-tutorial
+- https://spacelift.io/blog/github-actions-tutorial
 
-[^6]: https://dev.to/sre_panchanan/hello-world-in-github-actions-a-beginners-guide-to-your-first-workflow-1mbh
+- https://dev.to/sre_panchanan/hello-world-in-github-actions-a-beginners-guide-to-your-first-workflow-1mbh
 
-[^7]: https://www.youtube.com/watch?v=zH8hz_21x_0
+- https://www.youtube.com/watch?v=zH8hz_21x_0
 

@@ -22,7 +22,7 @@ brew install uv
 ### 2. Initialize Project Structure
 
 ```bash
-uv init <PACKAGE_NAME>  # Creates basic package structure [^3]
+uv init <PACKAGE_NAME>  # Creates basic package structure 
 cd <PACKAGE_NAME>
 ```
 
@@ -40,33 +40,33 @@ build-backend = "uv"
 name = "<PACKAGE_NAME>"
 version = "0.1.0"
 description = "Your package description"
-classifiers = ["Private :: Do Not Upload"]  # For private packages [^1]
+classifiers = ["Private :: Do Not Upload"]  # For private packages 
 ```
 
 
 ### 4. Build Package Distributions
 
 ```bash
-uv build  # Creates .whl and .tar.gz in dist/ [^1][^3]
+uv build  # Creates .whl and .tar.gz in dist/ 
 ```
 
 Optional flags:
 
-- `--no-sources`: Ensure compatibility with other build tools [^1]
-- `--package <SPECIFIC_PACKAGE>`: Build specific workspace package [^1]
+- `--no-sources`: Ensure compatibility with other build tools 
+- `--package <SPECIFIC_PACKAGE>`: Build specific workspace package 
 
 
 ### 5. Create PyPI API Token
 
 1. Log in to [pypi.org](https://pypi.org)
 2. Navigate to Account Settings → API tokens
-3. Create token with "Entire account" scope (for first publish) [^4]
+3. Create token with "Entire account" scope (for first publish) 
 
 ### 6. Publish to TestPyPI (Recommended)
 
 ```bash
 uv publish --token pypi-xxxx-xxxx-xxxx \
-  --publish-url https://test.pypi.org/legacy/ [^3]
+  --publish-url https://test.pypi.org/legacy/ 
 ```
 
 
@@ -74,14 +74,14 @@ uv publish --token pypi-xxxx-xxxx-xxxx \
 
 ```bash
 uv pip install --index-url https://test.pypi.org/simple/ <PACKAGE_NAME>
-uvx --from <PACKAGE_NAME> your-cli-command  # Test CLI tools [^4]
+uvx --from <PACKAGE_NAME> your-cli-command  # Test CLI tools 
 ```
 
 
 ### 8. Publish to PyPI
 
 ```bash
-uv publish --token pypi-xxxx-xxxx-xxxx  # Uses default PyPI endpoint [^1][^4]
+uv publish --token pypi-xxxx-xxxx-xxxx  # Uses default PyPI endpoint 
 ```
 
 
@@ -99,7 +99,7 @@ uv pip install <PACKAGE_NAME>
 **Version Management:**
 
 ```bash
-uv version <NEW_VERSION>  # Bump version automatically [^3]
+uv version <NEW_VERSION>  # Bump version automatically 
 ```
 
 **CI/CD Pipeline:**
@@ -112,32 +112,25 @@ uv version <NEW_VERSION>  # Bump version automatically [^3]
 
 **Security Best Practices:**
 
-- Replace initial account-wide token with project-scoped token after first publish [^4]
-- Use `UV_PUBLISH_TOKEN` environment variable instead of CLI argument for production [^1]
+- Replace initial account-wide token with project-scoped token after first publish 
+- Use `UV_PUBLISH_TOKEN` environment variable instead of CLI argument for production 
 
 ---
 
-This workflow leverages UV's fast Rust-based tooling for efficient Python package distribution. The process ensures compatibility with PyPI's modern token authentication system while maintaining flexibility for testing via TestPyPI[^1][^3][^4].
+This workflow leverages UV's fast Rust-based tooling for efficient Python package distribution. The process ensures compatibility with PyPI's modern token authentication system while maintaining flexibility for testing via TestPyPI.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+---
 
-[^1]: https://docs.astral.sh/uv/guides/package/
+### References
 
-[^2]: https://pypi.org/project/uv/
-
-[^3]: https://pydevtools.com/handbook/tutorial/publishing-your-first-python-package-to-pypi/
-
-[^4]: https://mathspp.com/blog/til/publishing-a-python-package-with-uv
-
-[^5]: https://www.youtube.com/watch?v=WKc2BdgmGZE
-
-[^6]: https://thisdavej.com/packaging-python-command-line-apps-the-modern-way-with-uv/
-
-[^7]: https://sarahglasmacher.com/how-to-build-python-package-uv/
-
-[^8]: https://packaging.python.org/tutorials/packaging-projects/
-
-[^9]: https://dev.to/lovestaco/how-to-create-and-publish-a-python-package-on-pypi-4470
-
-[^10]: https://pypi.org/project/uv/0.1.32/
+- https://docs.astral.sh/uv/guides/package   
+- https://pypi.org/project/uv/
+- https://pydevtools.com/handbook/tutorial/publishing-your-first-python-package-to-pypi/  
+- https://mathspp.com/blog/til/publishing-a-python-package-with-uv  
+- https://www.youtube.com/watch?v=WKc2BdgmGZE  
+- https://thisdavej.com/packaging-python-command-line-apps-the-modern-way-with-uv/  
+- https://sarahglasmacher.com/how-to-build-python-package-uv/  
+- https://packaging.python.org/tutorials/packaging-projects/  
+- https://dev.to/lovestaco/how-to-create-and-publish-a-python-package-on-pypi-4470  
+- https://pypi.org/project/uv/0.1.32/
 

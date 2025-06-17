@@ -27,5 +27,6 @@ A collection of small wikis related to software engineering topics.
 - [Step-by-Step Guide to Use Git Branching Strategy](Step-by-Step%20Guide%20to%20Use%20Git%20Branching%20Strategy.md)
 - [Step-by-Step Guide to Use Redis for Caching in Web](Step-by-Step%20Guide%20to%20Use%20Redis%20for%20Caching%20in%20Web.md)
 - [Step-by-Step Guide to Set Up and Use GitHub CLI](Step-by-Step%20Guide%20to%20Set%20Up%20and%20Use%20GitHub%20CLI.md)
+- [Step-by-Step Guide to Configure SSH and Connect to AWS EC2 Instance](Step-by-Step%20Guide%20to%20Configure%20SSH%20and%20Connect%20to%20AWS%20EC2%20Instance.md)
 
 ### More Wikis are coming soon!

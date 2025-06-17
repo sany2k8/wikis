@@ -147,25 +147,25 @@ You will need PyPI credentials configured or use an API token.
 
 ---
 
-This guide helps you set up Poetry as a modern Python dependency and packaging manager, simplifying project setup, dependency resolution, and publishing. For detailed documentation, visit [python-poetry.org](https://python-poetry.org/docs/)[^1][^2][^3][^4].
+This guide helps you set up Poetry as a modern Python dependency and packaging manager, simplifying project setup, dependency resolution, and publishing. For detailed documentation, visit [python-poetry.org](https://python-poetry.org/docs/).
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://python-poetry.org/docs/
+- https://python-poetry.org/docs/
 
-[^2]: https://python-poetry.org/docs/basic-usage/
+- https://python-poetry.org/docs/basic-usage/
 
-[^3]: https://www.digitalocean.com/community/tutorials/how-to-install-poetry-to-manage-python-dependencies-on-ubuntu-22-04
+- https://www.digitalocean.com/community/tutorials/how-to-install-poetry-to-manage-python-dependencies-on-ubuntu-22-04
 
-[^4]: https://realpython.com/dependency-management-python-poetry/
+- https://realpython.com/dependency-management-python-poetry/
 
-[^5]: https://www.youtube.com/watch?v=U_cPHzfdqPU
+- https://www.youtube.com/watch?v=U_cPHzfdqPU
 
-[^6]: https://betterstack.com/community/guides/scaling-python/poetry-explained/
+- https://betterstack.com/community/guides/scaling-python/poetry-explained/
 
-[^7]: https://flexiple.com/python/poetry-python
+- https://flexiple.com/python/poetry-python
 
-[^8]: https://www.youtube.com/watch?v=bTaqePEky6Q
+- https://www.youtube.com/watch?v=bTaqePEky6Q
 
-[^9]: https://www.jetbrains.com/help/dataspell/poetry.html
+- https://www.jetbrains.com/help/dataspell/poetry.html
 

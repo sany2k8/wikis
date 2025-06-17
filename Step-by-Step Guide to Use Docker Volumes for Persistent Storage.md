@@ -2,9 +2,9 @@
 
 ### 1. Understand Docker Volumes
 
-- Volumes are Docker-managed persistent storage that exist outside the container’s writable layer, ensuring data persists even if containers are removed or recreated[^1][^5][^6].
-- They are stored on the Docker host (usually under `/var/lib/docker/volumes/` on Linux) and are isolated from the host filesystem, unlike bind mounts[^1][^5].
-- Volumes are preferred for data persistence because they are easier to back up, migrate, and share among containers[^1][^6].
+- Volumes are Docker-managed persistent storage that exist outside the container’s writable layer, ensuring data persists even if containers are removed or recreated.
+- They are stored on the Docker host (usually under `/var/lib/docker/volumes/` on Linux) and are isolated from the host filesystem, unlike bind mounts.
+- Volumes are preferred for data persistence because they are easier to back up, migrate, and share among containers.
 - Use volumes when you want Docker to manage data storage and do not need direct host access to files.
 
 ---
@@ -54,7 +54,7 @@ docker run -d \
   postgres
 ```
 
-This mounts the `pg_data` volume to the directory where PostgreSQL stores its data, ensuring data persists across container restarts or removals[^2][^4].
+This mounts the `pg_data` volume to the directory where PostgreSQL stores its data, ensuring data persists across container restarts or removals.
 
 ---
 
@@ -77,7 +77,7 @@ docker run -d \
   postgres
 ```
 
-- The data remains intact and accessible in the new container[^2].
+- The data remains intact and accessible in the new container.
 
 ---
 
@@ -90,7 +90,7 @@ docker run -d -v my_volume:/data container1
 docker run -d -v my_volume:/data container2
 ```
 
-Docker manages synchronization between containers accessing the same volume[^5][^6].
+Docker manages synchronization between containers accessing the same volume.
 
 ---
 
@@ -113,11 +113,11 @@ docker volume prune
 
 ### 7. Best Practices
 
-- Use named volumes for important persistent data like databases or user files[^6].
-- Avoid bind mounts in production unless you need direct host access[^1][^6].
+- Use named volumes for important persistent data like databases or user files.
+- Avoid bind mounts in production unless you need direct host access.
 - Backup volumes by running a temporary container that mounts the volume and copies data out.
-- Monitor volume usage and clean unused volumes regularly[^5].
-- Use volumes to improve performance and portability compared to writing data inside containers[^1].
+- Monitor volume usage and clean unused volumes regularly.
+- Use volumes to improve performance and portability compared to writing data inside containers.
 
 ---
 
@@ -138,23 +138,23 @@ docker volume prune
 
 ---
 
-Using Docker volumes ensures your container data is safely persisted beyond container lifecycles, improving reliability and enabling easier data sharing and backup in containerized environments[^1][^2][^5][^6].
+Using Docker volumes ensures your container data is safely persisted beyond container lifecycles, improving reliability and enabling easier data sharing and backup in containerized environments.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://docs.docker.com/engine/storage/volumes/
+- https://docs.docker.com/engine/storage/volumes/
 
-[^2]: https://docs.docker.com/get-started/docker-concepts/running-containers/persisting-container-data/
+- https://docs.docker.com/get-started/docker-concepts/running-containers/persisting-container-data/
 
-[^3]: https://spacelift.io/blog/docker-volumes
+- https://spacelift.io/blog/docker-volumes
 
-[^4]: https://www.kdnuggets.com/how-to-use-docker-volumes-for-persistent-data-storage
+- https://www.kdnuggets.com/how-to-use-docker-volumes-for-persistent-data-storage
 
-[^5]: https://www.tutorialspoint.com/docker/docker_volumes.htm
+- https://www.tutorialspoint.com/docker/docker_volumes.htm
 
-[^6]: https://www.linkedin.com/pulse/docker-volumes-ultimate-guide-persistent-data-storage-amit-rautela-my1xc
+- https://www.linkedin.com/pulse/docker-volumes-ultimate-guide-persistent-data-storage-amit-rautela-my1xc
 
-[^7]: https://docs.docker.com/engine/storage/
+- https://docs.docker.com/engine/storage/
 
-[^8]: https://labex.io/tutorials/docker-how-to-configure-the-storage-location-for-docker-volumes-416179
+- https://labex.io/tutorials/docker-how-to-configure-the-storage-location-for-docker-volumes-416179
 

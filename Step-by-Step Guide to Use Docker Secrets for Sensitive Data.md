@@ -130,19 +130,18 @@ docker secret rm my_secret
 
 Docker Secrets provide a secure, encrypted, and runtime-only way to manage sensitive data in containerized applications running on Docker Swarm, preventing exposure in images, environment variables, or source code.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
+- https://docs.docker.com/engine/swarm/secrets/
 
-[^1]: https://docs.docker.com/engine/swarm/secrets/
+- https://spacelift.io/blog/docker-secrets
 
-[^2]: https://spacelift.io/blog/docker-secrets
+- https://semaphoreci.com/blog/docker-secrets-management
 
-[^3]: https://semaphoreci.com/blog/docker-secrets-management
+- https://labex.io/tutorials/docker-how-to-use-docker-secret-create-command-to-manage-sensitive-data-555220
 
-[^4]: https://labex.io/tutorials/docker-how-to-use-docker-secret-create-command-to-manage-sensitive-data-555220
+- https://blog.gitguardian.com/how-to-handle-secrets-in-docker/
 
-[^5]: https://blog.gitguardian.com/how-to-handle-secrets-in-docker/
+- https://beaglesecurity.com/blog/article/secrets-in-docker.html
 
-[^6]: https://beaglesecurity.com/blog/article/secrets-in-docker.html
-
-[^7]: https://www.youtube.com/watch?v=SHD8Bl0jEfE
+- https://www.youtube.com/watch?v=SHD8Bl0jEfE
 

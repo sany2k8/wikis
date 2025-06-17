@@ -165,19 +165,19 @@ git pull
 
 This setup allows you to easily install and switch between multiple Python versions on your system using Pyenv.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://github.com/pyenv/pyenv
+- https://github.com/pyenv/pyenv
 
-[^2]: https://realpython.com/intro-to-pyenv/
+- https://realpython.com/intro-to-pyenv/
 
-[^3]: https://stackoverflow.com/questions/29687140/install-latest-python-version-with-pyenv
+- https://stackoverflow.com/questions/29687140/install-latest-python-version-with-pyenv
 
-[^4]: https://mac.install.guide/python/install-pyenv
+- https://mac.install.guide/python/install-pyenv
 
-[^5]: https://realpython.com/videos/pyenv-install-python/
+- https://realpython.com/videos/pyenv-install-python/
 
-[^6]: https://treyhunner.com/2024/05/installing-a-custom-python-build-with-pyenv/
+- https://treyhunner.com/2024/05/installing-a-custom-python-build-with-pyenv/
 
-[^7]: https://ggkbase-help.berkeley.edu/how-to/install-pyenv/
+- https://ggkbase-help.berkeley.edu/how-to/install-pyenv/
 

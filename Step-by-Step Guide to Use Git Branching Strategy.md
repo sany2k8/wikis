@@ -151,25 +151,25 @@ GitFlow provides a clear, structured workflow ideal for projects with scheduled 
 
 **References:**
 
-- Atlassian GitFlow Tutorial [^1]
-- DataCamp GitFlow Tutorial [^2]
-- Original GitFlow Model by Vincent Driessen [^4]
+- Atlassian GitFlow Tutorial 
+- DataCamp GitFlow Tutorial 
+- Original GitFlow Model by Vincent Driessen 
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+- https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
-[^2]: https://www.datacamp.com/tutorial/gitflow
+- https://www.datacamp.com/tutorial/gitflow
 
-[^3]: https://www.youtube.com/watch?v=gQVUCTVt39o
+- https://www.youtube.com/watch?v=gQVUCTVt39o
 
-[^4]: https://nvie.com/posts/a-successful-git-branching-model/
+- https://nvie.com/posts/a-successful-git-branching-model/
 
-[^5]: https://dev.to/karmpatel/git-branching-strategies-a-comprehensive-guide-24kh
+- https://dev.to/karmpatel/git-branching-strategies-a-comprehensive-guide-24kh
 
-[^6]: https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-git-branch-approach/gitflow-branching-strategy.html
+- https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-git-branch-approach/gitflow-branching-strategy.html
 
-[^7]: https://www.gitkraken.com/learn/git/git-flow
+- https://www.gitkraken.com/learn/git/git-flow
 
-[^8]: https://www.youtube.com/watch?v=Aa8RpP0sf-Y
+- https://www.youtube.com/watch?v=Aa8RpP0sf-Y
 

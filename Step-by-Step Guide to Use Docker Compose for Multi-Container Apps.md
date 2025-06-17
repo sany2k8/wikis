@@ -150,21 +150,21 @@ docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
 
 Using Docker Compose simplifies managing multi-container apps by defining all services, networks, and volumes in one YAML file, replacing complex `docker run` commands with easy orchestration.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://docs.docker.com/get-started/docker-concepts/running-containers/multi-container-applications/
+- https://docs.docker.com/get-started/docker-concepts/running-containers/multi-container-applications/
 
-[^2]: https://dev.to/mukhilpadmanabhan/a-simple-guide-to-docker-compose-multi-container-applications-5e0g
+- https://dev.to/mukhilpadmanabhan/a-simple-guide-to-docker-compose-multi-container-applications-5e0g
 
-[^3]: https://www.ionos.com/digitalguide/server/configuration/docker-compose-tutorial/
+- https://www.ionos.com/digitalguide/server/configuration/docker-compose-tutorial/
 
-[^4]: https://www.datacamp.com/tutorial/docker-compose-guide
+- https://www.datacamp.com/tutorial/docker-compose-guide
 
-[^5]: https://docs.docker.com/get-started/workshop/07_multi_container/
+- https://docs.docker.com/get-started/workshop/07_multi_container/
 
-[^6]: https://www.youtube.com/watch?v=23ij4bub_Hw
+- https://www.youtube.com/watch?v=23ij4bub_Hw
 
-[^7]: https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/multi-container-applications-docker-compose
+- https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/multi-container-applications-docker-compose
 
-[^8]: https://labex.io/tutorials/docker-how-to-configure-and-manage-multi-container-docker-applications-393009
+- https://labex.io/tutorials/docker-how-to-configure-and-manage-multi-container-docker-applications-393009
 

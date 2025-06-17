@@ -232,23 +232,23 @@ gh config set pager 'less'
 
 GitHub CLI empowers you to perform almost all GitHub operations from your terminal, streamlining workflows like cloning repos, managing pull requests, issues, releases, and automating tasks with scripts and CI/CD.
 
-For more examples, see the official GitHub CLI examples page: https://cli.github.com/manual/examples[^1].
+For more examples, see the official GitHub CLI examples page- https://cli.github.com/manual/examples.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://cli.github.com/manual/examples
+- https://cli.github.com/manual/examples
 
-[^2]: https://github.com/cli/cli
+- https://github.com/cli/cli
 
-[^3]: https://github.com/advanced-security/gh-add-files
+- https://github.com/advanced-security/gh-add-files
 
-[^4]: https://github.blog/engineering/engineering-principles/scripting-with-github-cli/
+- https://github.blog/engineering/engineering-principles/scripting-with-github-cli/
 
-[^5]: https://docs.github.com/en/github-cli
+- https://docs.github.com/en/github-cli
 
-[^6]: https://cli.github.com
+- https://cli.github.com
 
-[^7]: https://github.com/TechPrimers/github-cli-example
+- https://github.com/TechPrimers/github-cli-example
 
-[^8]: https://www.youtube.com/watch?v=j5zUoyPaQqc
+- https://www.youtube.com/watch?v=j5zUoyPaQqc
 

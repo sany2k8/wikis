@@ -178,21 +178,14 @@ docker run -d -p 3000:80 myapp:latest
 
 This approach reduces image sizes by **~90%** in many cases (e.g., from 1.2GB to 120MB) while improving security by excluding build tools from production.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://docs.docker.com/build/building/multi-stage/
-
-[^2]: https://docs.docker.com/build/building/best-practices/
-
-[^3]: https://cyberpanel.net/blog/docker-multi-stage-builds
-
-[^4]: https://docs.docker.com/get-started/docker-concepts/building-images/multi-stage-builds/
-
-[^5]: https://labs.iximiuz.com/tutorials/docker-multi-stage-builds
-
-[^6]: https://www.cherryservers.com/blog/docker-multistage-build
-
-[^7]: https://www.blacksmith.sh/blog/understanding-multi-stage-docker-builds
-
-[^8]: https://overcast.blog/building-efficient-multi-stage-dockerfiles-for-production-055f34c4baed
+- https://docs.docker.com/build/building/multi-stage/
+- https://docs.docker.com/build/building/best-practices/
+- https://cyberpanel.net/blog/docker-multi-stage-builds
+- https://docs.docker.com/get-started/docker-concepts/building-images/multi-stage-builds/
+- https://labs.iximiuz.com/tutorials/docker-multi-stage-builds
+- https://www.cherryservers.com/blog/docker-multistage-build
+- https://www.blacksmith.sh/blog/understanding-multi-stage-docker-builds
+- https://overcast.blog/building-efficient-multi-stage-dockerfiles-for-production-055f34c4baed
 

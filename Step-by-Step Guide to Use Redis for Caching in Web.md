@@ -92,21 +92,21 @@ else:
 
 ---
 
-Using Redis caching can reduce page load times from tens of milliseconds to under a millisecond for cached content, significantly improving web application performance and scalability[^1][^2][^3][^5].
+Using Redis caching can reduce page load times from tens of milliseconds to under a millisecond for cached content, significantly improving web application performance and scalability.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://redis.io/ebook/part-1-getting-started/chapter-2-anatomy-of-a-redis-web-application/2-3-web-page-caching/
+- https://redis.io/ebook/part-1-getting-started/chapter-2-anatomy-of-a-redis-web-application/2-3-web-page-caching/
 
-[^2]: https://redis.io/learn/howtos/solutions/microservices/caching
+- https://redis.io/learn/howtos/solutions/microservices/caching
 
-[^3]: https://blog.pixelfreestudio.com/how-to-use-redis-for-real-time-data-caching/
+- https://blog.pixelfreestudio.com/how-to-use-redis-for-real-time-data-caching/
 
-[^4]: https://mobisoftinfotech.com/resources/blog/use-redis-as-secondary-cache-spring-boot
+- https://mobisoftinfotech.com/resources/blog/use-redis-as-secondary-cache-spring-boot
 
-[^5]: https://harbiola.hashnode.dev/how-to-use-redis-as-a-cache
+- https://harbiola.hashnode.dev/how-to-use-redis-as-a-cache
 
-[^6]: https://dotnettutorials.net/lesson/how-to-implement-redis-cache-in-asp-net-core-web-api/
+- https://dotnettutorials.net/lesson/how-to-implement-redis-cache-in-asp-net-core-web-api/
 
-[^7]: https://www.youtube.com/watch?v=-5RTyEim384
+- https://www.youtube.com/watch?v=-5RTyEim384
 

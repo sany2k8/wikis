@@ -3,7 +3,7 @@
 ### 1. Open a Terminal or Command Prompt
 
 - On Windows: Open Command Prompt or PowerShell.
-- On macOS/Linux: Open your terminal application[^2][^4].
+- On macOS/Linux: Open your terminal application.
 
 ---
 
@@ -16,7 +16,7 @@
 cd path/to/your/project
 ```
 
-- It’s common to create the virtual environment inside your project folder[^2][^5].
+- It’s common to create the virtual environment inside your project folder.
 
 ---
 
@@ -34,9 +34,9 @@ python -m venv myenv
 python3 -m venv myenv
 ```
 
-- Replace `myenv` with your preferred environment name (e.g., `.venv` is a common convention)[^2][^3][^5][^6].
+- Replace `myenv` with your preferred environment name (e.g., `.venv` is a common convention).
 
-This command creates a new directory (`myenv` or `.venv`) containing a standalone Python installation and all necessary supporting files[^1][^3][^5].
+This command creates a new directory (`myenv` or `.venv`) containing a standalone Python installation and all necessary supporting files.
 
 ---
 
@@ -54,7 +54,7 @@ myenv\Scripts\activate
 source myenv/bin/activate
 ```
 
-- After activation, your terminal prompt will show the environment name, e.g., `(myenv)`, indicating you are now working inside the virtual environment[^2][^3][^6].
+- After activation, your terminal prompt will show the environment name, e.g., `(myenv)`, indicating you are now working inside the virtual environment.
 
 ---
 
@@ -77,7 +77,7 @@ pip install <package-name>
 deactivate
 ```
 
-- Your prompt will return to normal, and you’ll be back to the system Python environment[^2][^3][^4].
+- Your prompt will return to normal, and you’ll be back to the system Python environment.
 
 ---
 
@@ -93,32 +93,23 @@ deactivate
 ---
 
 **Tip:**
-Using a virtual environment is a best practice for Python development, keeping your project dependencies isolated and manageable[^7].
+Using a virtual environment is a best practice for Python development, keeping your project dependencies isolated and manageable.
 
 ---
 
 **References:**
-[^1][^2][^3][^5][^6][^7]
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
 
-[^1]: https://docs.python.org/3/library/venv.html
+### References
 
-[^2]: https://www.w3resource.com/python-interview/how-do-you-create-a-virtual-environment-in-python-using-the-venv-module.php
-
-[^3]: https://docs.python.org/3/tutorial/venv.html
-
-[^4]: https://www.youtube.com/watch?v=oN0cISyzWe8
-
-[^5]: https://fastapi.tiangolo.com/virtual-environments/
-
-[^6]: https://www.pythontutorial.net/python-basics/python-virtual-environments/
-
-[^7]: https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
-
-[^8]: https://realpython.com/python-virtual-environments-a-primer/
-
-[^9]: https://www.w3schools.com/python/python_virtualenv.asp
-
-[^10]: https://www.youtube.com/watch?v=ySk09NKutm8
+- https://docs.python.org/3/library/venv.html
+- https://www.w3resource.com/python-interview/how-do-you-create-a-virtual-environment-in-python-using-the-venv-module.php
+- https://docs.python.org/3/tutorial/venv.html
+- https://www.youtube.com/watch?v=oN0cISyzWe8
+- https://fastapi.tiangolo.com/virtual-environments/
+- https://www.pythontutorial.net/python-basics/python-virtual-environments/
+- https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
+- https://realpython.com/python-virtual-environments-a-primer/
+- https://www.w3schools.com/python/python_virtualenv.asp
+- https://www.youtube.com/watch?v=ySk09NKutm8
 

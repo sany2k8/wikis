@@ -16,7 +16,7 @@ FROM nginx
 RUN echo "<h1>Hello world from Docker!</h1>" > /usr/share/nginx/html/index.html
 ```
 
-This uses the official Nginx image and customizes the homepage[^2][^5].
+This uses the official Nginx image and customizes the homepage.
 
 ---
 
@@ -28,7 +28,7 @@ Open a terminal in your project directory and run:
 docker build -t <your-docker-username>/my-nginx-image:latest .
 ```
 
-Replace `<your-docker-username>` with your Docker Hub username. This command builds the image and tags it for your registry[^2][^4][^5].
+Replace `<your-docker-username>` with your Docker Hub username. This command builds the image and tags it for your registry.
 
 ---
 
@@ -40,7 +40,7 @@ Run the image to make sure it works:
 docker run -p 8080:80 --rm <your-docker-username>/my-nginx-image:latest
 ```
 
-Visit `http://localhost:8080` to check the result[^2][^5].
+Visit `http://localhost:8080` to check the result.
 
 ---
 
@@ -52,7 +52,7 @@ Authenticate with Docker Hub (or your registry):
 docker login
 ```
 
-Enter your Docker Hub username and password when prompted[^2][^3][^4].
+Enter your Docker Hub username and password when prompted.
 
 For a private registry, use:
 
@@ -60,7 +60,7 @@ For a private registry, use:
 docker login myregistry.example.com
 ```
 
-And provide your credentials[^3].
+And provide your credentials.
 
 ---
 
@@ -107,7 +107,7 @@ docker push myregistry.example.com/my-nginx-image:latest
 ### 7. Verify the Image in the Registry
 
 - Go to your Docker Hub account or your registry's web interface.
-- Check that your image appears in your repositories[^2][^5].
+- Check that your image appears in your repositories.
 
 ---
 
@@ -127,27 +127,17 @@ docker push myregistry.example.com/my-nginx-image:latest
 
 ---
 
-This process works for Docker Hub and any Docker-compliant registry, including private registries[^3][^4][^8].
+This process works for Docker Hub and any Docker-compliant registry, including private registries.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://docs.gitlab.com/user/packages/container_registry/build_and_push_images/
-
-[^2]: https://docs.docker.com/docker-hub/quickstart/
-
-[^3]: https://cyberpanel.net/blog/docker-push-image-to-registry
-
-[^4]: https://docs.docker.com/get-started/docker-concepts/building-images/build-tag-and-publish-an-image/
-
-[^5]: https://www.stacksimplify.com/aws-eks/docker-basics/build-docker-image/
-
-[^6]: https://developer.harness.io/docs/continuous-integration/use-ci/build-and-upload-artifacts/build-and-push/build-and-push-to-docker-registry/
-
-[^7]: https://support.atlassian.com/bitbucket-cloud/docs/build-and-push-a-docker-image-to-a-container-registry/
-
-[^8]: https://docs.docker.com/reference/cli/docker/image/push/
-
-[^9]: https://docs.docker.com/get-started/introduction/build-and-push-first-image/
-
-[^10]: https://github.com/docker/build-push-action
-
+- https://docs.gitlab.com/user/packages/container_registry/build_and_push_images/
+- https://docs.docker.com/docker-hub/quickstart/
+- https://cyberpanel.net/blog/docker-push-image-to-registry
+- https://docs.docker.com/get-started/docker-concepts/building-images/build-tag-and-publish-an-image/
+- https://www.stacksimplify.com/aws-eks/docker-basics/build-docker-image/
+- https://developer.harness.io/docs/continuous-integration/use-ci/build-and-upload-artifacts/build-and-push/build-and-push-to-docker-registry/
+- https://support.atlassian.com/bitbucket-cloud/docs/build-and-push-a-docker-image-to-a-container-registry/
+- https://docs.docker.com/reference/cli/docker/image/push/
+- https://docs.docker.com/get-started/introduction/build-and-push-first-image/
+- https://github.com/docker/build-push-action

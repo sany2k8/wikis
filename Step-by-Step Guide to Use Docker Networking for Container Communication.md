@@ -144,21 +144,21 @@ Deploy services on the overlay network to enable secure multi-host communication
 
 Docker networking abstracts complex Linux networking details, providing seamless container communication with automatic DNS-based service discovery, network isolation, and flexible multi-host capabilities.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://spacelift.io/blog/docker-networking
+- https://spacelift.io/blog/docker-networking
 
-[^2]: https://docs.docker.com/engine/network/
+- https://docs.docker.com/engine/network/
 
-[^3]: https://dev.to/tusharops_29/docker-networking-basics-network-types-examples-5ed7
+- https://dev.to/tusharops_29/docker-networking-basics-network-types-examples-5ed7
 
-[^4]: https://www.networkcomputing.com/data-center-networking/docker-networking-fundamentals
+- https://www.networkcomputing.com/data-center-networking/docker-networking-fundamentals
 
-[^5]: https://betterstack.com/community/guides/scaling-docker/docker-networks/
+- https://betterstack.com/community/guides/scaling-docker/docker-networks/
 
-[^6]: https://dockerlabs.collabnix.com/networking/A1-network-basics.html
+- https://dockerlabs.collabnix.com/networking/A1-network-basics.html
 
-[^7]: https://labs.iximiuz.com/tutorials/container-networking-from-scratch
+- https://labs.iximiuz.com/tutorials/container-networking-from-scratch
 
-[^8]: https://www.tigera.io/learn/guides/kubernetes-networking/container-networking/
+- https://www.tigera.io/learn/guides/kubernetes-networking/container-networking/
 

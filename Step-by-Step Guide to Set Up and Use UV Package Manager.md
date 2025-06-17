@@ -38,7 +38,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/0.7.12/install.p
 
 - Via Homebrew (macOS): `brew install uv`
 - Via pip: `pip install uv` (not recommended, but possible)
-- Via pipx: `pipx install uv` [^5][^7]
+- Via pipx: `pipx install uv` 
 
 ---
 
@@ -57,7 +57,7 @@ You can also run:
 uv
 ```
 
-to see the help menu and available commands.[^3][^6]
+to see the help menu and available commands.
 
 ---
 
@@ -77,7 +77,7 @@ This creates a project directory with:
 - `README.md`
 - `pyproject.toml`
 - Example Python file (e.g., `hello.py`)
-[^5]
+
 
 **Create a virtual environment:**
 
@@ -88,7 +88,7 @@ uv venv
 - Activate the environment:
     - On macOS/Linux: `source .venv/bin/activate`
     - On Windows: `.\.venv\Scripts\activate.ps1`
-[^4][^7]
+
 
 ---
 
@@ -106,7 +106,7 @@ Example:
 uv add numpy pandas
 ```
 
-This installs the packages and updates `pyproject.toml` and `uv.lock`.[^5][^7]
+This installs the packages and updates `pyproject.toml` and `uv.lock`.
 
 **Install from requirements file:**
 
@@ -148,27 +148,27 @@ or visit the official documentation.
 
 ---
 
-UV is now set up and ready to use as your fast, modern Python package and project manager![^1][^2][^3][^4][^5][^6][^7]
+UV is now set up and ready to use as your fast, modern Python package and project manager!
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://docs.astral.sh/uv/getting-started/installation/
+- https://docs.astral.sh/uv/getting-started/installation/
 
-[^2]: https://www.saaspegasus.com/guides/uv-deep-dive/
+- https://www.saaspegasus.com/guides/uv-deep-dive/
 
-[^3]: https://realpython.com/python-uv/
+- https://realpython.com/python-uv/
 
-[^4]: https://ubuntushell.com/install-uv-python-package-manager/
+- https://ubuntushell.com/install-uv-python-package-manager/
 
-[^5]: https://www.datacamp.com/tutorial/python-uv
+- https://www.datacamp.com/tutorial/python-uv
 
-[^6]: https://docs.astral.sh/uv/getting-started/first-steps/
+- https://docs.astral.sh/uv/getting-started/first-steps/
 
-[^7]: https://www.digitalocean.com/community/conceptual-articles/uv-python-package-manager
+- https://www.digitalocean.com/community/conceptual-articles/uv-python-package-manager
 
-[^8]: https://www.youtube.com/watch?v=JtR7EyMcaWU
+- https://www.youtube.com/watch?v=JtR7EyMcaWU
 
-[^9]: https://www.youtube.com/watch?v=JeiCxJP7IK4
+- https://www.youtube.com/watch?v=JeiCxJP7IK4
 
-[^10]: https://www.youtube.com/watch?v=AMdG7IjgSPM
+- https://www.youtube.com/watch?v=AMdG7IjgSPM
 

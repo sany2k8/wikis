@@ -3,12 +3,12 @@
 ### 1. Install Git
 
 - **Windows:**
-    - Download the latest version of Git for Windows installer[^4][^6].
-    - Run the installer and follow the prompts[^4]. The default settings are suitable for most users[^6].
-    - During installation, you can choose a text editor (e.g., Vim or Nano)[^6][^7].
-    - After installation, launch Git Bash to start using Git[^7].
+    - Download the latest version of Git for Windows installer.
+    - Run the installer and follow the prompts. The default settings are suitable for most users.
+    - During installation, you can choose a text editor (e.g., Vim or Nano).
+    - After installation, launch Git Bash to start using Git.
 - **macOS:**
-    - The easiest way is to install the Xcode Command Line Tools[^2].
+    - The easiest way is to install the Xcode Command Line Tools.
     - Alternatively, use Homebrew:
 
 ```bash
@@ -28,7 +28,7 @@ brew install git
 git --version
 ```
 
-- This command should display the installed Git version[^4][^5][^6].
+- This command should display the installed Git version.
 
 
 ### 2. Configure Git
@@ -40,19 +40,19 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
 
-Replace `"Your Name"` and `"your.email@example.com"` with your actual name and email address[^7].
+Replace `"Your Name"` and `"your.email@example.com"` with your actual name and email address.
 
 
 ### 3. Create a Local Repository
 
-- Navigate to your project directory in the terminal using the `cd` command[^8].
+- Navigate to your project directory in the terminal using the `cd` command.
 - Initialize a Git repository:
 
 ```bash
 git init
 ```
 
-This command creates a `.git` subdirectory in your project directory, which contains the repository metadata[^5].
+This command creates a `.git` subdirectory in your project directory, which contains the repository metadata.
 
 
 ### 4. Basic Git Workflow
@@ -157,21 +157,21 @@ This command merges the changes from `<branch_name>` into the `main` branch.
 
 This guide provides a basic overview of how to set up and use Git for version control. There are many more advanced features and commands available in Git, but these steps should get you started.
 
-**⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂ References *⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂**
+### References
 
-[^1]: https://phoenixnap.com/kb/how-to-install-git-windows
+- https://phoenixnap.com/kb/how-to-install-git-windows
 
-[^2]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+- https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-[^3]: https://www.youtube.com/watch?v=qrD3z9_9DXU
+- https://www.youtube.com/watch?v=qrD3z9_9DXU
 
-[^4]: https://github.com/git-guides/install-git
+- https://github.com/git-guides/install-git
 
-[^5]: https://www.simplilearn.com/tutorials/git-tutorial/git-installation-on-windows
+- https://www.simplilearn.com/tutorials/git-tutorial/git-installation-on-windows
 
-[^6]: https://codefinity.com/blog/A-step-by-step-guide-to-Git-installation
+- https://codefinity.com/blog/A-step-by-step-guide-to-Git-installation
 
-[^7]: https://www.youtube.com/watch?v=3FTficFKzME
+- https://www.youtube.com/watch?v=3FTficFKzME
 
-[^8]: https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+- https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 
